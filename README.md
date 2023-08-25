@@ -154,3 +154,10 @@ nvm alias default [node版本号] ##设置默认版本
         (1) 找到正在打开该文件的程序，并退出
         (2) 直接删掉该文件即可
 ```
+
+
+### shell
+```
+倒计时
+for ((i = 10; i > 0; i --)) do echo $i; sleep 1; done
+```
